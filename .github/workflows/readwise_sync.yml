@@ -1,8 +1,8 @@
 name: Readwise Sync
 on:
+  workflow_dispatch: {}       # lets you run it manually
   schedule:
-    - cron: '0 * * * *'   # hourly in UTC
-  workflow_dispatch: {}
+    - cron: '0 * * * *'       # hourly, UTC
 permissions:
   contents: write
 jobs:
@@ -10,14 +10,43 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Show repo tree
+        run: |
+          pwd
+          ls -la
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: pip install requests
-      - name: Export highlights to JSON
+
+      - name: Python + deps
+        run: |
+          python -V
+          pip install --upgrade pip
+          pip install requests
+
+      - name: Sanity check token
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: |
+          if [ -z "$READWISE_TOKEN" ]; then
+            echo "ERROR: READWISE_TOKEN is empty"; exit 1
+          else
+            echo "Token present"
+          fi
+
+      - name: Test API (tiny call)
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: |
+          curl -s -H "Authorization: Token $READWISE_TOKEN" https://readwise.io/api/v2/export/ | head -c 200 || true
+
+      - name: Run export
         env:
           READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
         run: python readwise_export.py
+
       - name: Commit & push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
