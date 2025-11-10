@@ -1,8 +1,15 @@
 name: Readwise Sync
 on:
-  workflow_dispatch: {}       # lets you run it manually
+  workflow_dispatch: {}            # run manually from Actions tab
   schedule:
-    - cron: '0 * * * *'       # hourly, UTC
+    - cron: '0 * * * *'            # hourly in UTC
+  push:
+    branches: [ main ]             # runs when you push to main
+    paths:
+      - 'README.md'
+      - 'readwise_export.py'
+      - '.github/workflows/**'
+
 permissions:
   contents: write
 jobs:
