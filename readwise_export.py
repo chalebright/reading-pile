@@ -38,7 +38,7 @@ def fetch_export(updated_after=None):
 
 def normalize_book(b):
     def tag_names(t):
-        if isinstance(t, list) and t and isinstance(t[0], dict]):
+        if isinstance(t, list) and t and isinstance(t[0], dict):
             return [x.get("name","").strip() for x in t]
         return t or []
     book_id = f'{b["user_book_id"]}-{slugify(b.get("title"))[:50]}'
