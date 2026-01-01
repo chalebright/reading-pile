@@ -382,6 +382,45 @@
       "tags": [],
       "created_at": "2026-01-01T19:12:30.987Z",
       "readwise_url": "https://readwise.io/open/972569841"
+    },
+    {
+      "id": 972570366,
+      "loc": {
+        "type": "offset",
+        "value": 34703,
+        "end": null
+      },
+      "text": "the genuine conception of historical time rests entirely upon the image of redemption.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-01T19:13:47.034Z",
+      "readwise_url": "https://readwise.io/open/972570366"
+    },
+    {
+      "id": 972571525,
+      "loc": {
+        "type": "offset",
+        "value": 38448,
+        "end": null
+      },
+      "text": "Having a fate means *properly taking charge of one’s self*. Someone who surrenders to the ‘momentary actualities’ has no fate, no ‘authentic historicality’",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-01T19:19:05.110Z",
+      "readwise_url": "https://readwise.io/open/972571525"
+    },
+    {
+      "id": 972571860,
+      "loc": {
+        "type": "offset",
+        "value": 39813,
+        "end": null
+      },
+      "text": "‘Stories’ on digital platforms such as Instagram or Facebook are not genuine stories. They have no *narrative duration*. Rather, they are just sequences of momentary impressions that do not tell us anything. They are in fact no more than bits of *visual information* that quickly disappear. *Nothing stays*.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-01T19:20:37.364Z",
+      "readwise_url": "https://readwise.io/open/972571860"
     }
   ]
 }
