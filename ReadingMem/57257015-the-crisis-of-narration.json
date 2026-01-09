@@ -39,7 +39,7 @@
         "value": 5140,
         "end": null
       },
-      "text": "Ultimately, a narrative is an *expression of the mood of a time*. Such narratives, which have an *inner moment of truth*, are the opposite of the eviscerated, exchangeable and contingent narratives – that is, the micro-narratives – of the present, which lack *gravity*, which lack any *moment of truth*.",
+      "text": "Ultimately, a narrative is an *expression of the mood of a time*. Such narratives, which have an *inner moment of truth*, are the opposite of the eviscerated",
       "note": "",
       "tags": [],
       "created_at": "2026-01-01T18:17:11.377Z",
@@ -707,6 +707,58 @@
       "tags": [],
       "created_at": "2026-01-01T18:28:30.133Z",
       "readwise_url": "https://readwise.io/open/973268336"
+    },
+    {
+      "id": 975784488,
+      "loc": {
+        "type": "offset",
+        "value": 3246,
+        "end": null
+      },
+      "text": "Once they are seen as something *constructed*, they lose their moment of *inner truth*",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T12:57:19.805Z",
+      "readwise_url": "https://readwise.io/open/975784488"
+    },
+    {
+      "id": 975784996,
+      "loc": {
+        "type": "offset",
+        "value": 4984,
+        "end": null
+      },
+      "text": "exchangeable and contingent narratives – that is, the micro-narratives – of the present, which lack *gravity*, which lack any *moment of truth*.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T13:01:02.061Z",
+      "readwise_url": "https://readwise.io/open/975784996"
+    },
+    {
+      "id": 975785016,
+      "loc": {
+        "type": "offset",
+        "value": 5436,
+        "end": null
+      },
+      "text": "Narration is a *concluding form*. It creates a *closed* order that founds meaning and identity.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T13:01:18.407Z",
+      "readwise_url": "https://readwise.io/open/975785016"
+    },
+    {
+      "id": 975788617,
+      "loc": {
+        "type": "offset",
+        "value": 11422,
+        "end": null
+      },
+      "text": "A piece of news that arrives is marked by an *unavailable distance*. It announces a historical event that resists availability and computability. We are at its mercy, as if faced with the *power of destiny*.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T13:25:39.955Z",
+      "readwise_url": "https://readwise.io/open/975788617"
     }
   ]
 }
