@@ -1,0 +1,36 @@
+{
+  "book_id": "57471900-the-storyteller",
+  "title": "The Storyteller",
+  "author": "Walter Benjamin",
+  "source": "reader",
+  "readwise_url": "https://readwise.io/bookreview/57471900",
+  "category": "articles",
+  "highlights": [
+    {
+      "id": 975887655,
+      "loc": {
+        "type": "offset",
+        "value": 1999561,
+        "end": null
+      },
+      "text": "angle of vision are prescribed for us by an experience which we may have almost every day. It teaches us that the art of storytelling is coming to an end. Less and less frequently do we encounter people with",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T20:17:45.868Z",
+      "readwise_url": "https://readwise.io/open/975887655"
+    },
+    {
+      "id": 975887741,
+      "loc": {
+        "type": "offset",
+        "value": 1999605,
+        "end": null
+      },
+      "text": ": the ability to exchange experiences.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T20:19:19.265Z",
+      "readwise_url": "https://readwise.io/open/975887741"
+    }
+  ]
+}

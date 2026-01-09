@@ -140,10 +140,10 @@
       "id": 972553339,
       "loc": {
         "type": "offset",
-        "value": 17658,
+        "value": 17613,
         "end": null
       },
-      "text": "For Benjamin, the ‘apogee of mental relaxation’ is boredom",
+      "text": "Storytelling requires a state of relaxation. For Benjamin, the ‘apogee of mental relaxation’ is boredom.",
       "note": "",
       "tags": [],
       "created_at": "2026-01-01T18:29:52.371Z",
@@ -182,7 +182,7 @@
         "value": 18890,
         "end": null
       },
-      "text": "The information society is an age of *heightened mental tension*, because the essence of information is surprise and the stimulus it provides.",
+      "text": "The information society is an age of *heightened mental tension*, because the essence of information is surprise and the stimulus it provides. The tsunami of information means that our perceptual apparatus is permanently stimulated. It can no longer enter into contemplation.",
       "note": "",
       "tags": [],
       "created_at": "2026-01-01T18:32:10.665Z",
@@ -793,7 +793,7 @@
         "value": 15351,
         "end": null
       },
-      "text": "Herodotus offers no explanations. His report is utterly dry. That is why, after thousands of years, this story from ancient Egypt is still capable of provoking astonishment and reflection. It is like those seeds of grain that have lain for centuries in the airtight chambers of the pyramids and have retained their germinative power to this day.[7](private://read/01kdxc3stvnwn046p4hgr49r0p/part0005_split_001.html#ft7)",
+      "text": "Herodotus offers no explanations. His report is utterly dry. That is why, after thousands of years, this story from ancient Egypt is still capable of provoking astonishment and reflection. It is like those seeds of grain that have lain for centuries in the airtight chambers of the pyramids and have retained their germinative power to this day.[7](part0005_split_001.html#ft7)",
       "note": "",
       "tags": [],
       "created_at": "2026-01-09T15:23:29.257Z",
@@ -811,6 +811,19 @@
       "tags": [],
       "created_at": "2026-01-09T15:28:00.559Z",
       "readwise_url": "https://readwise.io/open/975816591"
+    },
+    {
+      "id": 975885672,
+      "loc": {
+        "type": "offset",
+        "value": 16676,
+        "end": null
+      },
+      "text": "A narrative creates community; a novel, however, is born of the lonely, isolated individual. A novel psychologizes and interprets, but a narrative proceeds descriptively: ‘The most extraordinary things, marvelous things, are related with the greatest accuracy, but the psychological connections among the events are not forced on the reader.’ However, the ultimate decline of narration comes not with the novel but with the rise of information under capitalism",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-09T19:59:04.655Z",
+      "readwise_url": "https://readwise.io/open/975885672"
     }
   ]
 }
