@@ -70,5 +70,11 @@
     "title": "The Storyteller",
     "author": "Walter Benjamin",
     "file": "57471900-the-storyteller.json"
+  },
+  {
+    "book_id": "57535679-simulacra-and-simulation",
+    "title": "Simulacra And Simulation",
+    "author": "Jean Baudrillard, Sheila Faria Glaser",
+    "file": "57535679-simulacra-and-simulation.json"
   }
 ]
