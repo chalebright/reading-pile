@@ -267,19 +267,6 @@
       "readwise_url": "https://readwise.io/open/972563713"
     },
     {
-      "id": 972564150,
-      "loc": {
-        "type": "offset",
-        "value": 24499,
-        "end": null
-      },
-      "text": "‘The art of storytelling is nearing its end because the epic side of truth, wisdom, is dying out.",
-      "note": "",
-      "tags": [],
-      "created_at": "2026-01-01T18:38:48.782Z",
-      "readwise_url": "https://readwise.io/open/972564150"
-    },
-    {
       "id": 972565966,
       "loc": {
         "type": "offset",
@@ -837,6 +824,58 @@
       "tags": [],
       "created_at": "2026-01-18T16:36:53.798Z",
       "readwise_url": "https://readwise.io/open/979110606"
+    },
+    {
+      "id": 979222154,
+      "loc": {
+        "type": "offset",
+        "value": 20531,
+        "end": null
+      },
+      "text": "By posting, sharing and liking, we subordinate ourselves to the context of domination.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-18T22:49:38.387Z",
+      "readwise_url": "https://readwise.io/open/979222154"
+    },
+    {
+      "id": 979226970,
+      "loc": {
+        "type": "offset",
+        "value": 24497,
+        "end": null
+      },
+      "text": "Benjamin holds that the storyteller ‘is a man who has counsel for his listeners’.[2](private://read/01kdxc3stvnwn046p4hgr49r0p/part0006_split_001.html#ft2) Such counsel does not simply provide solutions to problems. Rather, it suggests how *a story is to be continued*. The one seeking counsel and the counsellor both belong to a narrative community. Those seeking counsel must themselves be able to *narrate*. In real life, counsel is sought and given in a narrative context. As wisdom, it is ‘woven into the fabric of real life’.[3](private://read/01kdxc3stvnwn046p4hgr49r0p/part0006_split_001.html#ft3) Wisdom is embedded in *life as narrative*. If life can no longer be narrated, wisdom deteriorates, and its place is taken by *problem-solving techniques*. Wisdom is *narrated truth*: ‘The art of storytelling is nearing its end because the epic side of truth, wisdom, is dying out.’",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-18T22:58:36.601Z",
+      "readwise_url": "https://readwise.io/open/979226970"
+    },
+    {
+      "id": 979227447,
+      "loc": {
+        "type": "offset",
+        "value": 25345,
+        "end": null
+      },
+      "text": "When experience disintegrates, when there is no longer anything binding or stable, all that is left is *bare life*, a kind of *survival*.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-18T23:00:00.407Z",
+      "readwise_url": "https://readwise.io/open/979227447"
+    },
+    {
+      "id": 979229489,
+      "loc": {
+        "type": "offset",
+        "value": 25911,
+        "end": null
+      },
+      "text": "Despite his doubts, Benjamin frequently reveals some – limited – optimism regarding modernity. His tone often switches from the elegiac to the euphoric. He also believes that he can see a ‘new beauty’ in the vanishing of experience.",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-01-18T23:04:46.237Z",
+      "readwise_url": "https://readwise.io/open/979229489"
     }
   ]
 }
