@@ -112,5 +112,11 @@
     "title": "William Blake - Poems",
     "author": "William Blake",
     "file": "61643626-william-blake-poems.json"
+  },
+  {
+    "book_id": "61914293-from-magician-to-epistemologist",
+    "title": "From Magician to Epistemologist",
+    "author": "Annette Michelson",
+    "file": "61914293-from-magician-to-epistemologist.json"
   }
 ]
