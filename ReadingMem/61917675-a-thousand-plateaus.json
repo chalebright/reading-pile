@@ -1,0 +1,23 @@
+{
+  "book_id": "61917675-a-thousand-plateaus",
+  "title": "A Thousand Plateaus",
+  "author": "Gilles Deleuze, Felix Guattari",
+  "source": "reader",
+  "readwise_url": "https://readwise.io/bookreview/61917675",
+  "category": "articles",
+  "highlights": [
+    {
+      "id": 1032837518,
+      "loc": {
+        "type": "offset",
+        "value": 24999752,
+        "end": null
+      },
+      "text": "![](https://readwise-assets.s3.amazonaws.com/media/reader/pub/c58694eb8e44c387a5296ea3e2e21495_I7oaGLf.png?t=1783587667313)",
+      "note": "",
+      "tags": [],
+      "created_at": "2026-07-09T08:56:34.270Z",
+      "readwise_url": "https://readwise.io/open/1032837518"
+    }
+  ]
+}
