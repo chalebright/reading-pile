@@ -54,6 +54,24 @@ should preview as self-illuminated. A `Mapping` node sits between UVs and
 the image texture if you need to nudge/scale content by hand beyond what the
 UV unwrap already gives you.
 
+## Testing
+
+`tests/smoke_test.py` runs the add-on headlessly and checks the things that
+have actually broken during development: mesh/UV/normals build correctly,
+rebuilding after a parameter change doesn't leave duplicate objects behind
+or reset materials that were manually tweaked in the node editor, and
+timeline sync behaves for both the "no media loaded" and real-media cases.
+
+```
+blender --background --factory-startup --python tests/smoke_test.py
+```
+
+Run it after touching `geometry.py`, `materials.py`, or `operators.py`.
+
+Note: **Export UV Template** requires an actual GPU context (the Viewport or
+`blender -b` with a display), so it can't be exercised in the headless smoke
+test — it isn't covered there, only used interactively.
+
 ## Once real measurements exist
 
 - Update `chimney_height_m`, `base_radius_m`, `top_radius_factor` (and

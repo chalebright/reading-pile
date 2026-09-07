@@ -53,6 +53,9 @@ def build_chimney_mesh(settings):
 
     bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
 
+    # Capture indices while the bmesh is still alive — bm.free() invalidates the BMVert refs in `rings`.
+    ring_indices = [[v.index for v in ring] for ring in rings]
+
     mesh = bpy.data.meshes.get(OBJECT_NAME)
     if mesh is None:
         mesh = bpy.data.meshes.new(OBJECT_NAME)
@@ -76,6 +79,6 @@ def build_chimney_mesh(settings):
     # Skip the first/last fraction (the caps) — only the interior fracs are coupling rings.
     for ring_idx, level in enumerate(range(1, len(fracs) - 1), start=1):
         vg = obj.vertex_groups.new(name=f"ring_{ring_idx}")
-        vg.add([v.index for v in rings[level]], 1.0, 'REPLACE')
+        vg.add(ring_indices[level], 1.0, 'REPLACE')
 
     return obj

@@ -12,6 +12,18 @@ def build_stand_in_material(settings):
 
     nodes = mat.node_tree.nodes
     links = mat.node_tree.links
+
+    image_tex = nodes.get(IMAGE_NODE_NAME)
+    if image_tex is not None:
+        # Already built — rebuilding the mesh shouldn't nuke manual tweaks (e.g. Mapping
+        # offsets) made in the node editor. Just repoint the existing texture at the media.
+        if settings.media_filepath:
+            try:
+                image_tex.image = bpy.data.images.load(settings.media_filepath, check_existing=True)
+            except RuntimeError:
+                pass
+        return mat
+
     nodes.clear()
 
     output = nodes.new("ShaderNodeOutputMaterial")
